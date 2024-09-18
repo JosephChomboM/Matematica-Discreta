@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Visualizador de PDF en GitHub Pages">
-    <title>PDF en GitHub Pages</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; 
+        }
+        object {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <title>Resumen de Matemática Discreta</title>
 </head>
 <body>
- <embed src="https://josephchombom.github.io/Matematica-Discreta/resumenED.pdf" width="100%" height="850px"/>
-
+    <object data="resumenED.pdf" type="application/pdf" width="100%" height="100%"> </object>
 </body>
 </html>
